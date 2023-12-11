@@ -1,0 +1,331 @@
+@import url('../style.css');
+
+.inicio{
+    margin-top: 15vh;
+
+}
+
+.InicioConteiner{
+    display: flex;
+    margin: auto;
+    max-width: 1200px;
+    
+}
+
+.imagen{
+    width: 45.25%;
+    margin-right: 5%;
+    display: flex;
+    align-items: center;
+}
+
+.texto{
+    width: 45.25%;
+}
+
+
+
+.texto h1{
+    font-size: 35px;
+    color: rgb(0, 0, 0);
+    line-height: 52px;
+}
+
+.pro-im{
+  color: rgb(15, 111, 239); ;
+}
+
+.texto p{
+  color: #5f6c7b;
+  line-height: 28px;
+}
+
+.imagen img{
+    width: 100%;
+    border-radius: 15px;
+
+}
+
+.Comunicar {
+    cursor: pointer;
+    position: relative;
+    padding: 10px 24px;
+    font-size: 18px;
+    color: rgb(15, 111, 239);
+    border: 2px solid rgb(15, 111, 239);
+    border-radius: 34px;
+    background-color: transparent;
+    font-weight: 600;
+    transition: all 0.3s cubic-bezier(0.23, 1, 0.320, 1);
+    overflow: hidden;
+  }
+  
+  .Comunicar::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    margin: auto;
+    width: 50px;
+    height: 50px;
+    border-radius: inherit;
+    scale: 0;
+    z-index: -1;
+    background-color: rgb(15, 111, 239);
+    transition: all 0.6s cubic-bezier(0.23, 1, 0.320, 1);
+  }
+  
+  .Comunicar:hover::before {
+    scale: 3;
+  }
+  
+  .Comunicar:hover {
+    color: #ffffff;
+    scale: 1.1;
+    box-shadow: 0 0px 20px rgba(15, 111, 239,0.4);
+  }
+  
+  .Comunicar:active {
+    scale: 1;
+  }
+
+
+
+  .sec-car{
+    margin-top: 60px;
+    background-color: #eaeaea;
+  }
+    
+  .card-container{
+    padding: 30px;
+    max-width: 1024px;
+    margin: auto;
+  }
+
+  .card {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .card .green {
+    background-color: #22c55e;
+  }
+  
+  .card .car {
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    height: 100px;
+    width: 200px;
+    border-radius: 10px;
+    color: white;
+    cursor: pointer;
+    transition: 400ms;
+  }
+  
+  .card .car p.tip {
+    font-size: 1em;
+    font-weight: 700;
+  }
+  
+  .card .car p.second-text {
+    font-size: .7em;
+    width: 90%;
+  }
+  
+  .card .car:hover {
+    transform: scale(1.1, 1.1);
+  }
+  
+  .card:hover > .car:not(:hover) {
+    filter: blur(10px);
+    transform: scale(0.9, 0.9);
+  }
+
+.promocion{
+    background-color: orange;
+    display: flex;
+    height: 120px;
+    justify-content: center;
+
+}
+
+.promocion .texto{
+    color:white;
+   margin: 20px;
+   font-size: 28px;
+    
+}
+
+/*/////////////////////////////////*/
+/*///////////////////////////////**/
+/*////////////////////////////////*/
+
+.equipos{
+  margin-top: 24px;
+}
+.equipos-container{
+  
+  max-width: 1024px;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  
+}
+
+.equipo-card{
+  box-shadow: 0px 10px 15px -3px rgba(0,0,0,0.1); 
+   width: 300px;
+  height: 330px;
+  text-align: center;
+  margin: 24px;
+}
+
+.equipo-card h1{
+  max-width: 90%;
+  margin: auto;
+  font-size: 23px;
+  margin-top: 36px;
+  text-align: center;
+  color: rgb(15, 111, 239);
+}
+
+.equipo-card p{
+  max-width: 90%;
+  margin: auto;
+  font-size: 15px;
+  margin-top: 15px;
+  line-height: 30px;
+  margin-bottom: 38px;
+  color: #5f6c7b;
+}
+
+.equipo-card a{
+  text-decoration: none;
+  color: white;
+  padding: 16px 24px;
+  background-color:  rgb(15, 111, 239);
+}
+
+
+
+
+
+.soluciones{
+  margin-bottom: 36px;
+}
+
+
+.Comunicar2 {
+    margin: 20px;
+    padding: 17px 40px;
+    border-radius: 50px;
+    border: 0;
+    background-color: white;
+    box-shadow: rgba(246, 185, 0, 0.05) 0 0 8px;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    font-size: 15px;
+    transition: all .5s ease;
+   }
+   
+   .Comunicar2:hover {
+    letter-spacing: 3px;
+    background-color: hsl(0, 0%, 100%);
+    color: orange;
+    box-shadow: rgb(255, 255, 255) 0px 7px 29px 0px;
+   }
+   
+   .Comunicar2:active {
+    letter-spacing: 3px;
+    background-color: hsl(0, 0%, 100%);
+    color: orange;
+    box-shadow: 8px 4px 15px 8px rgba(0,0,0,0.1);    transform: translateY(10px);
+    transition: 100ms;
+   }
+
+   .text2{
+    margin: 20px;
+
+   }
+
+   .text2 p{
+    justify-content: center;
+    display: flex;
+    color:#22c55e;
+    font-size: 20px;
+   }
+
+
+
+
+
+
+
+   
+/*////////////////////////////////////////////////*/
+/*//////////////////////////////////////////////*/
+/*///////////////////////////////////////////////*/
+
+/* MOBILE */
+@media (max-width: 768px) {
+
+  .inicio{
+    margin-top: 26px;
+  }
+
+  .InicioConteiner{
+      flex-direction: column;
+  }
+
+  .imagen{
+   display: none;
+  }
+
+  .texto{
+    width: calc(100% - 40px);
+    margin-left: 20px;
+    text-align: center;
+  }
+
+  .card{
+    flex-direction: column;
+    align-items: center;
+    margin: 35px;
+  }
+
+  .car{
+    margin-top: 25px;
+  }
+
+  .equipos-container{
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .promocion{
+    flex-direction: column;
+    height: auto;
+}
+
+.text2 p{
+  text-align: center;
+ }
+
+ .soluciones{
+  width: calc(100% - 40px);
+  margin: 0px auto 0px auto;
+  text-align: center;
+  align-items: center;
+
+}
+
+
+}
+
+.text-justificado{
+  text-align: justify;
+}
