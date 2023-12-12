@@ -27,6 +27,6 @@ $(document).ready(function () {
 
 $(document).ready(function() {
   $('.redirigir-nosotros').click(function() {
-    window.location.href = './html/contactanos.html';
+    window.location.href = './html/nosotros.html';
   });
 });
